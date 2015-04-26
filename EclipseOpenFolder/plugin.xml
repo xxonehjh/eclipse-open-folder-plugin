@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            id="EclipseOpenFolder.contribution_open_location"
+            objectClass="org.eclipse.core.resources.IResource">
+         <action
+               label="Open Resource Location"
+               class="eclipseopenfolder.popup.actions.OpenFolder"
+               menubarPath="additions"
+               enablesFor="1"
+               id="EclipseOpenFolder.openlocation">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
