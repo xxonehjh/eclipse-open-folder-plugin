@@ -12,6 +12,12 @@ import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
 
+/**
+ * 
+ * 打开文件所在目录
+ * @author 洪 qq:2260806429
+ * 
+ */
 public class OpenFolder implements IObjectActionDelegate {
 
 	/**
